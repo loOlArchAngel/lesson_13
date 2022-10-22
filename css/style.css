@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@700&display=swap');
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+	background-image: url(../img/sniper.jpg);
+}
+
+body{
+	background-color: rgb(52, 63, 80);
+}
+.text{
+	font-family: "Trispace";
+	font-size: 100px;
+	font-weight: 700;
+	color: rgb(255, 174, 0)
+}
+.title__text {
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+}
+.title{
+	margin-bottom: 50px;
+	position: relative;
+}
+.text__g {
+	animation: text__g 2s linear forwards;
+	position: absolute;
+}
+@keyframes text__g {
+	0% {
+		transform: translate(-200%, 0px);
+	}
+
+	20% {
+		transform: translate(0px, 0px);
+	}
+	
+	80% {
+		transform: translate(0px, 0px);
+	}
+
+	100% {
+		transform: translate(0px, 0px);
+	}
+}	
+
+.text__a {
+	animation: text__a 2.5s linear forwards;
+	position: absolute;
+}
+@keyframes text__a {
+	0% {
+		transform: translate(-200%, 0px);
+	}
+	20% {
+		transform: translate(0px, 0px);
+	}
+	
+	80% {
+		transform: translate(0px, 0px);
+	}
+	100% {
+		transform: translate(100px, 0px);
+	}
+}
+.text__m {
+	animation: text__m 3s linear forwards;
+	position: absolute;
+}
+@keyframes text__m {
+	0% {
+		transform: translate(-200%, 0px);
+	}
+
+	20% {
+		transform: translate(0px, 0px);
+	}
+
+	80% {
+		transform: translate(0px, 0px);
+	}
+
+	100% {
+		transform: translate(200px, 0px);
+	}
+}
+.text__e {
+	animation: text__e 3.5s linear forwards;
+	position: absolute;
+}
+@keyframes text__e {
+	0% {
+		transform: translate(-200%, 0px);
+	}
+
+	20% {
+		transform: translate(0px, 0px);
+	}
+
+	80% {
+		transform: translate(0px, 0px);
+	}
+
+	100% {
+		transform: translate(300px, 0px);
+	}
+}
+.text__s {
+	animation: text__s 4s linear forwards;
+	position: absolute;
+}
+@keyframes text__s {
+	0% {
+		transform: translate(-200%, 0px);
+	}
+
+	20% {
+		transform: translate(0px, 0px);
+	}
+
+	80% {
+		transform: translate(0px, 0px);
+	}
+
+	100% {
+		transform: translate(450px, 0px);
+	}
+}
+.text__n {
+	animation: text__n 4.5s linear forwards;
+	position: absolute;
+}
+@keyframes text__n {
+	0% {
+		transform: translate(-200%, 0px);
+	}
+
+	20% {
+		transform: translate(0px, 0px);
+	}
+
+	80% {
+		transform: translate(0px, 0px);
+	}
+
+	100% {
+		transform: translate(550px, 0px);
+	}
+}
+.text__i {
+	animation: text__i 5s linear forwards;
+	position: absolute;
+}
+@keyframes text__i {
+	0% {
+		transform: translate(-200%, 0px);
+	}
+
+	20% {
+		transform: translate(0px, 0px);
+	}
+
+	80% {
+		transform: translate(0px, 0px);
+	}
+
+	100% {
+		transform: translate(650px, 0px);
+	}
+}
+.text__p {
+	animation: text__p 5.5s linear forwards;
+	position: absolute;
+}
+@keyframes text__p {
+	0% {
+		transform: translate(-200%, 0px);
+	}
+
+	20% {
+		transform: translate(0px, 0px);
+	}
+
+	80% {
+		transform: translate(0px, 0px);
+	}
+
+	100% {
+		transform: translate(750px, 0px);
+	}
+}
+.text__two-e {
+	animation: text__two-e 6s linear forwards;
+	position: absolute;
+}
+@keyframes text__two-e {
+	0% {
+		transform: translate(-200%, 0px);
+	}
+
+	20% {
+		transform: translate(0px, 0px);
+	}
+
+	80% {
+		transform: translate(0px, 0px);
+	}
+
+	100% {
+		transform: translate(850px, 0px);
+	}
+}
+.text__r {
+	animation: text__r 6.5s linear forwards;
+	position: absolute;
+}
+@keyframes text__r {
+	0% {
+		transform: translate(-200%, 0px);
+	}
+
+	20% {
+		transform: translate(0px, 0px);
+	}
+
+	80% {
+		transform: translate(0px, 0px);
+	}
+
+	100% {
+		transform: translate(950px, 0px);
+	}
+} 
+
+.button {
+   height: 110px;
+	max-width: 250px;
+	margin: 0 auto;
+	background-image: url(../img/buttons_PNG27.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-top: 10px;
+	font-size: 55px;
+	font-family: "Trispace";
+	font-weight: 700;
+	text-align: center;
+}
+
+.page{
+	margin-top: 150px;
+}
+.text__game{
+	font-family: "Trispace";
+	font-size: 50px;
+	font-weight: 700;
+	color: rgb(255, 174, 0);
+	text-align: center;
+	padding-top: 50px;
+}
+.page__sniper{
+	height: 600px;
+	max-width: 1000px;
+	margin: 0 auto;
+	background-image: url(../img/02.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+	z-index: 1;
+}
+.page__sniper-2{
+	height: 600px;
+	max-width: 1000px;
+	margin: 0 auto;
+	background-image: url(../img/01.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position:relative;
+	top: -600px;
+	z-index: 3;
+	pointer-events: none;
+}
+.page__chmonia{
+	max-width: 1000px;
+	height: 150px;
+	top: 220px;
+	animation: page__chmonia 1s alternate linear 100 forwards;
+	position: relative;
+	z-index: 2;
+}
+.page__chmonia:hover{
+	animation-play-state: paused;
+}
+
+@keyframes page__chmonia {
+	0% {
+		transform: translate(0px, 0px);
+	}
+
+	100% {
+		transform: translate(800px, 0px);
+	}
+}
